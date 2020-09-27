@@ -24,7 +24,7 @@ export const aboutData = {
     'Build few projects using React.js I find React to be straight forward and readable. Now Learning and geting better at css3 and typescript and working on my touch typeing and Vim.',
   paragraphThree:
     'I find inspiration from Joe Rogan, Lex Fridman, Elon Musk to name a few, Also have an intrest in Psychology and Philosophy."Spider-man into the Spider-Verse" is one of my favourite movies.',
-  resume: '/static/Adithyan_resume.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/15UdlhkfylhkVcesEO7MB4UL2pZuIBZ7Y/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
