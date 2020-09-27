@@ -18,20 +18,24 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I am passionate about technology. Allways adding new tools to my utility belt, I use Linux as my daily driver. Have Diploma in Computer Engineering from Kerala Goverment Polytechnic college. Learned javascript and python from the internet.',
+  paragraphTwo:
+    'Build few projects using React.js I find React to be straight forward and readable. Now Learning and geting better at css3 and typescript and working on my touch typeing and Vim.',
+  paragraphThree:
+    'I find inspiration from Joe Rogan, Lex Fridman, Elon Musk to name a few, Also have an intrest in Psychology and Philosophy."Spider-man into the Spider-Verse" is one of my favourite movies.',
+  resume: '/static/Adithyan_resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project2.png',
+    img: 'project2.jpg',
     title: 'Tour Agency',
-    info: '',
-    info2: '',
+    info: 'Website for a Travel Agency based on Kerala,India.',
+    info2:
+      'Made using create-react-app and react-router.Goal of this project is to get better at writing css',
     url: 'https://kerala.netlify.app/',
     repo: 'https://github.com/P1-KumMan/Kerala_tourism',
     // if no repo, the button will not show up
@@ -40,8 +44,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'space2.png',
     title: 'SpaceX Site',
-    info: '',
-    info2: '',
+    info: 'Build using SpaceX REST api and Reactjs',
+    info2: 'Created this site to learn about api and Material-ui',
     url: 'https://spacexclone.netlify.app/',
     repo: 'https://github.com/P1-KumMan/space',
     // if no repo, the button will not show up
